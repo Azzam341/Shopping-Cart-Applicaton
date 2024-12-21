@@ -1,0 +1,6 @@
+Pineapple
+50.0
+99
+FRUITS
+Lovely piny apples
+file:C:\Users\Dell\Desktop\TestingwithFXCss\src\main\resources\com\example\testingwithfx\images\Pineapple.png

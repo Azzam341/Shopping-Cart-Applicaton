@@ -1,0 +1,74 @@
+Order No: 1
+Product: Apple, Quantity: 3, Subtotal: 300.00, Subtotal after discount: 300.00
+Product: Banana, Quantity: 1, Subtotal: 100.00, Subtotal after discount: 100.00
+Total after discount: 400.00
+
+Order No: 2
+Product: Apple, Quantity: 4, Subtotal: 400.00, Subtotal after discount: 360.00
+Product: Banana, Quantity: 2, Subtotal: 200.00, Subtotal after discount: 160.00
+Total after discount: 520.00
+
+Order No: 3
+Product: Apple, Quantity: 1, Subtotal before discount: 100.00
+Product: Banana, Quantity: 1, Subtotal before discount: 100.00
+Total before discount: 200.00
+Total after discount: 200.00
+
+Order No: 4
+Product: Apple, Quantity: 2, Subtotal before discount: 200.00
+Product: Banana, Quantity: 2, Subtotal before discount: 200.00
+Total before discount: 400.00
+Total after discount: 380.00
+
+Order No: 5
+Product: Apple, Quantity: 1, Subtotal before discount: 100.00
+Total before discount: 100.00
+Total after discount: 0.00
+
+Order No: 6
+Product: Apple, Quantity: 1, Subtotal before discount: 500.00
+Product: Milk, Quantity: 2, Subtotal before discount: 40.00
+Total before discount: 540.00
+Total after discount: 540.00
+
+Order No: 7
+Product: Apple, Quantity: 1, Subtotal before discount: 500.00
+Product: Milk, Quantity: 2, Subtotal before discount: 40.00
+Total before discount: 540.00
+Total after discount: 490.00
+
+Order No: 8
+Product: Apple, Quantity: 1, Subtotal before discount: 500.00
+Total before discount: 500.00
+Total after discount: 500.00
+
+Order No: 9
+Product: Apple, Quantity: 2, Subtotal before discount: 1000.00
+Total before discount: 1000.00
+Total after discount: 950.00
+
+Order No: 10
+Product: Apple, Quantity: 1, Subtotal before discount: 500.00
+Total before discount: 500.00
+Total after discount: 500.00
+
+Order No: 11
+Product: Apple, Quantity: 1, Subtotal before discount: 500.00
+Total before discount: 500.00
+Total after discount: 450.00
+
+Order No: 12
+Product: Apple, Quantity: 1, Subtotal before discount: 500.00
+Total before discount: 500.00
+Total after discount: 500.00
+
+Order No: 13
+Product: Apple, Quantity: 1, Subtotal before discount: 500.00
+Total before discount: 500.00
+Total after discount: 450.00
+
+Order No: 14
+Product: Apple, Quantity: 1, Subtotal before discount: 500.00
+Total before discount: 500.00
+Total after discount: 400.00
+

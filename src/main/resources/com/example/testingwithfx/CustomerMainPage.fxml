@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<AnchorPane prefHeight="720.0" prefWidth="1280.0" style="-fx-background-color: linear-gradient(to bottom, #8cf58c, #b8ccb8);" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.testingwithfx.CustomerMainPage">
+    <children>
+        <!-- Scroll Pane with Grid (Resized) -->
+        <ScrollPane fx:id="scrollPane" layoutX="70.0" layoutY="116.0" prefHeight="400.0" prefWidth="1155.0">
+            <content>
+                <GridPane fx:id="gridPane" prefHeight="388.0" prefWidth="1238.0" style="-fx-background-color: #bbfcbb;">
+                    <padding>
+                        <Insets bottom="10" left="10" right="10" top="10" />
+                    </padding>
+                    <columnConstraints>
+                        <ColumnConstraints halignment="CENTER" />
+                        <ColumnConstraints halignment="CENTER" />
+                        <ColumnConstraints halignment="CENTER" />
+                        <ColumnConstraints halignment="CENTER" />
+                        <ColumnConstraints halignment="CENTER" />
+                        <ColumnConstraints halignment="CENTER" />
+                        <ColumnConstraints halignment="CENTER" />
+                    </columnConstraints>
+                    <rowConstraints>
+                        <RowConstraints />
+                    </rowConstraints>
+                </GridPane>
+            </content>
+        </ScrollPane>
+
+        <!-- Buttons with New Styling -->
+        <Button fx:id="viewShoppingCart" layoutX="19.0" layoutY="570.0" mnemonicParsing="false" onAction="#setViewShoppingCart" prefHeight="50.0" prefWidth="209.0" style="-fx-font-size: 18px; -fx-font-weight: bold; -fx-background-color: #388e3c; -fx-text-fill: white; -fx-border-radius: 25px; -fx-background-radius: 25px;" text="View Shopping Cart" />
+
+        <Button fx:id="checkout" layoutX="274.0" layoutY="570.0" mnemonicParsing="false" onAction="#setCheckout" prefHeight="50.0" prefWidth="200.0" style="-fx-font-size: 18px; -fx-font-weight: bold; -fx-background-color: #388e3c; -fx-text-fill: white; -fx-border-radius: 25px; -fx-background-radius: 25px;" text="Checkout" />
+
+        <Button fx:id="viewCustomerDetails" layoutX="785.0" layoutY="570.0" mnemonicParsing="false" onAction="#setViewCustomerDetails" prefHeight="50.0" prefWidth="200.0" style="-fx-font-size: 18px; -fx-font-weight: bold; -fx-background-color: #388e3c; -fx-text-fill: white; -fx-border-radius: 25px; -fx-background-radius: 25px;" text="Customer Details" />
+
+        <Button fx:id="logOut" layoutX="1049.0" layoutY="570.0" mnemonicParsing="false" onAction="#setLogOut" prefHeight="50.0" prefWidth="200.0" style="-fx-font-size: 18px; -fx-font-weight: bold; -fx-background-color: #388e3c; -fx-text-fill: white; -fx-border-radius: 25px; -fx-background-radius: 25px;" text="Log Out" />
+
+        <Button fx:id="viewHistory" layoutX="534.0" layoutY="570.0" mnemonicParsing="false" onAction="#setViewHistory" prefHeight="50.0" prefWidth="200.0" style="-fx-font-size: 18px; -fx-font-weight: bold; -fx-background-color: #388e3c; -fx-text-fill: white; -fx-border-radius: 25px; -fx-background-radius: 25px;" text="View Order History" />
+
+        <!-- Search ComboBox and Button for Product Search -->
+        <ComboBox fx:id="searchBox" layoutX="252.0" layoutY="41.0" prefHeight="62.0" prefWidth="832.0" />
+        <Button fx:id="searchProduct" layoutX="1102.0" layoutY="40.0" mnemonicParsing="false" onAction="#searchinInventoryLogic" prefHeight="50.0" prefWidth="164.0" style="-fx-font-size: 18px; -fx-font-weight: bold; -fx-background-color: #388e3c; -fx-text-fill: white; -fx-border-radius: 25px; -fx-background-radius: 25px;" text="Search Product" />
+      <ImageView fitHeight="99.0" fitWidth="188.0" layoutX="24.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Logo/Picture1.png" />
+         </image>
+      </ImageView>
+    </children>
+</AnchorPane>

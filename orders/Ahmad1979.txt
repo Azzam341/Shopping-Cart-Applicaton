@@ -1,0 +1,6 @@
+Order No: 1
+Product: Apple, Quantity: 1, Subtotal before discount: 500.00
+Product: Pineapple, Quantity: 1, Subtotal before discount: 50.00
+Total before discount: 550.00
+Total after discount: 550.00
+

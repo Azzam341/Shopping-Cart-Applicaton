@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.testingwithfx.StartPage">
+   <children>
+      <Pane prefHeight="720.0" prefWidth="1280.0" style="-fx-background-color: #d3e0dc;">
+         <children>
+            <!-- Header Label -->
+            <Label layoutX="400.0" layoutY="40.0" style="-fx-font-size: 36px; -fx-font-weight: bold; -fx-text-fill: #2f6a3f;" text="WELCOME TO SHOPPING CART" />
+
+            <!-- Sign Up Button -->
+            <Button fx:id="signUp" layoutX="530.0" layoutY="304.0" mnemonicParsing="false" onAction="#goToSignUp" prefHeight="50.0" prefWidth="299.0" style="-fx-font-size: 18px; -fx-background-color: #8bc34a; -fx-text-fill: white; -fx-font-weight: bold; -fx-border-radius: 25px; -fx-background-radius: 25px;" text="Sign Up as Customer" />
+
+            <!-- Admin Sign In Button -->
+            <Button fx:id="adminSignIn" layoutX="530.0" layoutY="220.0" mnemonicParsing="false" onAction="#goToAdminSignIn" prefHeight="50.0" prefWidth="299.0" style="-fx-font-size: 18px; -fx-background-color: #388e3c; -fx-text-fill: white; -fx-font-weight: bold; -fx-border-radius: 25px; -fx-background-radius: 25px;" text="Sign In As Admin" />
+
+            <!-- Customer Sign In Button -->
+            <Button fx:id="customerSignIn" layoutX="526.0" layoutY="397.0" mnemonicParsing="false" onAction="#goToCustomerSignIn" prefHeight="50.0" prefWidth="299.0" style="-fx-font-size: 18px; -fx-background-color: #7cb342; -fx-text-fill: white; -fx-font-weight: bold; -fx-border-radius: 25px; -fx-background-radius: 25px;" text="Sign In as Customer" />
+
+            <!-- Super Admin Sign In Button -->
+            <Button fx:id="superAdminSignIn" layoutX="530.0" layoutY="135.0" mnemonicParsing="false" onAction="#goToSuperAdminSignIn" prefHeight="50.0" prefWidth="299.0" style="-fx-font-size: 18px; -fx-background-color: #388e3c; -fx-text-fill: white; -fx-font-weight: bold; -fx-border-radius: 25px; -fx-background-radius: 25px;" text="Sign In as Super Admin" />
+
+            <!-- Section Labels -->
+            <Label layoutX="269.0" layoutY="230.0" style="-fx-font-size: 20px; -fx-font-weight: bold; -fx-text-fill: #2f6a3f;" text="Admin Options:" />
+            <Label layoutX="239.0" layoutY="135.0" style="-fx-font-size: 20px; -fx-font-weight: bold; -fx-text-fill: #2f6a3f;" text="Super Admin Options:" />
+            <Label layoutX="255.0" layoutY="314.0" style="-fx-font-size: 20px; -fx-font-weight: bold; -fx-text-fill: #2f6a3f;" text="Customer Options:" />
+
+            <!-- Delete Customer Profile Button -->
+            <Button fx:id="deleteCustomerProfile" layoutX="527.0" layoutY="487.0" mnemonicParsing="false" onAction="#setDeleteCustomerProfile" prefHeight="50.0" prefWidth="299.0" style="-fx-font-size: 18px; -fx-background-color: #f44336; -fx-text-fill: white; -fx-font-weight: bold; -fx-border-radius: 25px; -fx-background-radius: 25px;" text="Delete Customer Profile" />
+
+            <!-- Image View -->
+            <ImageView fitHeight="153.0" fitWidth="272.0" layoutX="41.0" layoutY="545.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Logo/Picture1.png" />
+               </image>
+               <viewport>
+                  <Rectangle2D minX="2.0" minY="3.0" />
+               </viewport>
+            </ImageView>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

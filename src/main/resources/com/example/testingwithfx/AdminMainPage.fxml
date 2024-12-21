@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="720.0" prefWidth="1280.0" style="-fx-background-color: #ffcb9e;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.testingwithfx.AdminMainPage">
+   <children>
+      <Pane prefHeight="720.0" prefWidth="1280.0">
+         <children>
+            <Label layoutX="560.0" layoutY="37.0" prefHeight="40.0" prefWidth="206.0" style="-fx-font-size: 24px; -fx-text-fill: #ff4800; -fx-font-weight: bold;" text="Admin Dashboard" />
+
+            <Button fx:id="addtoInventory" layoutX="255.0" layoutY="120.0" mnemonicParsing="false" onAction="#addtoInventoryLogic" prefHeight="50.0" prefWidth="345.0" style="-fx-background-color: #ff4800; -fx-text-fill: white; -fx-font-size: 18px; -fx-background-radius: 50px;" text="Add Product to Inventory" />
+
+            <Button fx:id="removefromInventory" layoutX="700.0" layoutY="120.0" mnemonicParsing="false" onAction="#removefromInventoryLogic" prefHeight="50.0" prefWidth="345.0" style="-fx-background-color: #ff4800; -fx-text-fill: white; -fx-font-size: 18px; -fx-background-radius: 50px;" text="Remove Product from Inventory" />
+
+            <Button fx:id="searchinInventory" layoutX="255.0" layoutY="240.0" mnemonicParsing="false" onAction="#searchinInventoryLogic" prefHeight="50.0" prefWidth="345.0" style="-fx-background-color: #ff4800; -fx-text-fill: white; -fx-font-size: 18px; -fx-background-radius: 50px;" text="Search Product" />
+
+            <Button fx:id="restock" layoutX="255.0" layoutY="360.0" mnemonicParsing="false" onAction="#restockLogic" prefHeight="50.0" prefWidth="345.0" style="-fx-background-color: #ff4800; -fx-text-fill: white; -fx-font-size: 18px; -fx-background-radius: 50px;" text="Restock Inventory" />
+
+            <Button fx:id="updateProductDetails" layoutX="700.0" layoutY="240.0" mnemonicParsing="false" onAction="#updateProductDetailsLogic" prefHeight="50.0" prefWidth="345.0" style="-fx-background-color: #ff4800; -fx-text-fill: white; -fx-font-size: 18px; -fx-background-radius: 50px;" text="Update Product Details" />
+
+            <Button fx:id="viewInventory" layoutX="700.0" layoutY="360.0" mnemonicParsing="false" onAction="#viewInventory" prefHeight="50.0" prefWidth="345.0" style="-fx-background-color: #ff4800; -fx-text-fill: white; -fx-font-size: 18px; -fx-background-radius: 50px;" text="View Inventory" />
+
+            <Button fx:id="adminDetails" layoutX="255.0" layoutY="480.0" mnemonicParsing="false" onAction="#adminDetails" prefHeight="50.0" prefWidth="345.0" style="-fx-background-color: #ff4800; -fx-text-fill: white; -fx-font-size: 18px; -fx-background-radius: 50px;" text="Admin Details" />
+
+            <Button fx:id="discardStock" layoutX="700.0" layoutY="480.0" mnemonicParsing="false" onAction="#discardStockLogic" prefHeight="50.0" prefWidth="345.0" style="-fx-background-color: #ff4800; -fx-text-fill: white; -fx-font-size: 18px; -fx-background-radius: 50px;" text="Discard Stock" />
+
+            <Button fx:id="logOut" layoutX="50.0" layoutY="620.0" mnemonicParsing="false" onAction="#setLogOut" prefHeight="40.0" prefWidth="150.0" style="-fx-background-color: #ff4800; -fx-text-fill: white; -fx-font-size: 16px; -fx-background-radius: 50px;" text="Log Out" />
+
+            <Label layoutX="800.0" layoutY="560.0" style="-fx-font-size: 16px; -fx-text-fill: #ff4800;" text="MAX INVENTORY SPACE:">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+
+            <Label layoutX="835.0" layoutY="621.0" prefHeight="25.0" prefWidth="130.0" style="-fx-font-size: 16px; -fx-text-fill: #ff4800;" text="OCCUPIED SPACE:" />
+
+            <TextField fx:id="maxSpace" layoutX="1020.0" layoutY="560.0" onAction="#populateMaxInventoryTextfields" prefHeight="40.0" prefWidth="100.0" style="-fx-background-radius: 20px; -fx-font-weight: bold;" />
+
+            <TextField fx:id="spaceTaken" layoutX="1020.0" layoutY="613.0" onAction="#populateSpaceTaken" prefHeight="40.0" prefWidth="100.0" style="-fx-background-radius: 20px;  -fx-font-weight: bold;" />
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="25.0" layoutY="37.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Logo/Picture1.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

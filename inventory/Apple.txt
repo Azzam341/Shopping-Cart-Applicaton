@@ -1,0 +1,6 @@
+Apple
+500.0
+953
+FRUITS
+By the kilogram
+file:C:\Users\Dell\Desktop\TestingwithFXCss\src\main\resources\com\example\testingwithfx\images\Apple.png

@@ -1,0 +1,6 @@
+Banana
+100.0
+100
+FRUITS
+By the dozen
+file:C:\Users\Dell\Desktop\TestingwithFXCss\src\main\resources\com\example\testingwithfx\images\Banana.png

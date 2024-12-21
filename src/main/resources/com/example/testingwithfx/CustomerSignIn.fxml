@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.testingwithfx.CustomerSignInController">
+   <children>
+      <Pane layoutX="1.0" prefHeight="720.0" prefWidth="1280.0" style="-fx-background-color: #f0f8f0;">
+         <children>
+            <!-- Title -->
+            <Label layoutX="490.0" layoutY="30.0" style="-fx-font-size: 30px; -fx-font-weight: bold; -fx-text-fill: #388e3c;" text="CUSTOMER SIGN IN" />
+
+            <!-- Username Label and TextField -->
+            <Label layoutX="299.0" layoutY="134.0" style="-fx-font-size: 18px; -fx-font-weight: bold; -fx-text-fill: #388e3c;" text="Username:" />
+            <TextField fx:id="username" layoutX="481.0" layoutY="127.0" prefHeight="40.0" prefWidth="300.0" style="-fx-font-size: 16px;" />
+
+            <!-- Password Label and PasswordField -->
+            <Label layoutX="301.0" layoutY="218.0" style="-fx-font-size: 18px; -fx-font-weight: bold; -fx-text-fill: #388e3c;" text="Password:" />
+            <PasswordField fx:id="password" layoutX="481.0" layoutY="205.0" prefHeight="40.0" prefWidth="300.0" style="-fx-font-size: 16px;" />
+
+            <!-- Captcha Label, Generated Captcha and Input Field -->
+            <Label layoutX="301.0" layoutY="308.0" prefHeight="27.0" prefWidth="85.0" style="-fx-font-size: 18px; -fx-font-weight: bold; -fx-text-fill: #388e3c;" text="Captcha:" />
+            <TextField fx:id="generatedCaptcha" layoutX="481.0" layoutY="301.0" prefHeight="40.0" prefWidth="300.0" style="-fx-font-size: 16px;" />
+            <TextField fx:id="enteredCaptcha" layoutX="481.0" layoutY="405.0" prefHeight="40.0" prefWidth="300.0" promptText="Write the captcha" style="-fx-font-size: 16px;" />
+
+            <!-- Sign In Button -->
+            <Button fx:id="signIn" layoutX="540.0" layoutY="593.0" mnemonicParsing="false" onAction="#signInLogic" prefHeight="50.0" prefWidth="200.0" style="-fx-font-size: 18px; -fx-font-weight: bold; -fx-background-color: #388e3c; -fx-text-fill: white; -fx-border-radius: 25px; -fx-background-radius: 25px;" text="Sign In" />
+
+            <!-- Back Button -->
+            <Button fx:id="back" layoutX="41.0" layoutY="650.0" mnemonicParsing="false" onAction="#setBack" prefHeight="50.0" prefWidth="200.0" style="-fx-font-size: 18px; -fx-font-weight: bold; -fx-background-color: #388e3c; -fx-text-fill: white; -fx-border-radius: 25px; -fx-background-radius: 25px;" text="Back" />
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="1033.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Logo/Picture1.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,6 @@
+Grapes
+50.0
+100
+FRUITS
+Fresh and juicy
+file:C:\Users\Dell\Desktop\TestingwithFXCss\src\main\resources\com\example\testingwithfx\images\Grapes.png
