@@ -11,7 +11,7 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws IOException {
-      Parent root = FXMLLoader.load(getClass().getResource("StartPage.fxml"));
+      Parent root = FXMLLoader.load(getClass().getResource("CustomerMainPage.fxml"));
       primaryStage.setScene(new javafx.scene.Scene(root));
       primaryStage.setTitle("SHOPPING CART APPLICATION");
       primaryStage.show();
